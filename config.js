@@ -203,7 +203,7 @@ global.img18 = ''
 
 global.logogit = ''
 
-global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
+global.welwitty = [ig, ig, md, ig, ig, fb]
 global.redesMenu = [nna, md, ig, asistencia, fb]
 global.wittyMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.wittyVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
@@ -336,7 +336,7 @@ global.rpg = {
       kambing: '🐐 Cabra : Goat',
       kerbau: '🐃 Búfalo : Buffalo',
       lion: '🦁 León : Lion',
-      money: lenguajeGB.eGataCoins(),
+      money: lenguajeGB.eWittyCoins(),
       monyet: '🐒 Mono : Monkey',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente : Snake',
