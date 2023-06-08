@@ -143,7 +143,7 @@ return false })}
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./GataBotSession")
+let directorio = readdirSync("./WittyBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') || file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-')
 })
@@ -155,12 +155,12 @@ unlinkSync(`./WittyBotSession/${files}`)
 
 function purgeSessionSB() {
 try {
-let listaDirectorios = readdirSync('./GataJadiBot/');
+let listaDirectorios = readdirSync('./WittyJadiBot/');
 //console.log(listaDirectorios) Nombra las carpetas o archivos
 let SBprekey = []
 listaDirectorios.forEach(directorio => {
-if (statSync(`./GataJadiBot/${directorio}`).isDirectory()) {
-let DSBPreKeys = readdirSync(`./GataJadiBot/${directorio}`).filter(fileInDir => {
+if (statSync(`./WittyJadiBot/${directorio}`).isDirectory()) {
+let DSBPreKeys = readdirSync(`./WittyJadiBot/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-') || fileInDir.startsWith('app-') || fileInDir.startsWith('session-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys]
